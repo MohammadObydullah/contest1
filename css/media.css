@@ -1,0 +1,270 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98) {
+
+}
+
+/*======================mediumd device part start=======================*/
+
+@media (min-width: 881px) and (max-width: 991.98px) {
+#header-top {
+  padding-top: 246px;
+  padding-bottom: 231px;
+}
+.right {
+ 
+  width: 246px;
+}
+.right h1 {
+ 
+  font-size: 30px;
+ 
+}
+.footer-img {
+  position: absolute;
+  right: -134px;
+  bottom: -146px;
+}
+.footer-img img {
+  width: 147px;
+  height: 603px;
+}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 880px) {
+  #header-top {
+  padding-top: 246px;
+  padding-bottom: 231px;
+}
+.right {
+ 
+  width: 246px;
+}
+.right h1 {
+ 
+  font-size: 30px;
+ 
+}
+.footer-img {
+  right: -81px;
+  bottom: -162px;
+}
+.footer-img img {
+  width: 147px;
+  height: 603px;
+}
+
+
+}
+
+/*==================small device part start=================================*/
+
+@media (min-width: 646px) and (max-width: 767.98px) {
+#header-top {
+  padding-top: 120px;
+  padding-bottom: 121px;
+}
+
+.left {
+  position: absolute;
+  top: 39%;
+  left: 5%;
+}
+.left img{
+  width:200px;
+}
+.right-header{
+  padding-top:150px!important;
+}
+.right {
+  
+  width: 206px;
+}
+.right h1 {
+
+  font-size: 24px;
+ 
+}
+.right-top{
+  width:326px;
+}
+.icon-list {
+  padding-top: 30px;
+
+}
+
+/*footer-img*/
+.footer-img img {
+  height: 437px;
+  width:170px;
+}
+.footer-img {
+  position: absolute;
+  right: -112px;
+  bottom: -5px;
+}
+
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 645px) {
+
+#header-top {
+  padding-top: 120px;
+  padding-bottom: 121px;
+}
+
+.left {
+  position: absolute;
+  top: 39%;
+  left: 5%;
+}
+.left img{
+  width:200px;
+}
+.right-header{
+  padding-top:150px!important;
+}
+.right {
+  
+  width: 206px;
+}
+.right h1 {
+
+  font-size: 24px;
+ 
+}
+.right-top{
+  width:326px;
+}
+.icon-list {
+  padding-top: 30px;
+
+}
+
+/*footer-img*/
+.footer-img img {
+  height: 437px;
+}
+.footer-img {
+  position: absolute;
+  right: -52px;
+  bottom: -5px;
+}
+
+}
+
+
+
+/*===========================xtra small device part start=================================*/
+
+@media (max-width:575.98px) {
+
+#header-top {
+  padding-top: 120px;
+  padding-bottom: 121px;
+}
+
+.left {
+  position: absolute;
+  top: 39%;
+  left: 5%;
+}
+.left img{
+  width:200px;
+}
+.right-header{
+  padding-top:150px!important;
+}
+.right {
+  
+  width: 206px;
+}
+ .details p {
+	font-size: 14px;
+}   
+.right h1 {
+
+  font-size: 24px;
+ 
+}
+.right-top{
+  width:326px;
+}
+.icon-list {
+  padding-top: 31px;
+}
+
+/*footer-img*/
+.footer-img img {
+  height: 437px;
+}
+.footer-img {
+  position: absolute;
+  right: -27px;
+  bottom: -5px;
+}
+
+
+
+}
+
+@media (max-width:398px) {
+
+#header-top {
+  padding-top: 120px;
+  padding-bottom: 121px;
+}
+
+.left {
+  position: absolute;
+  top: 39%;
+  left: 5%;
+}
+.left img{
+  width:200px;
+}
+.right-header{
+  padding-top:150px!important;
+}
+.right {
+  width: 206px;
+}
+ .details p {
+	font-size: 14px;
+}   
+.right h1 {
+  font-size: 24px;
+
+}
+.right-top{
+  width:326px;
+}
+.icon-list {
+  padding-top: 31px;
+  padding-bottom: 25px;
+}
+
+/*footer-img*/
+.footer-img img{
+  height:360px;
+}
+.footer-img {
+  position: absolute;
+  right: -39px;
+  bottom: -5px;
+}
+
+
+
+
+
+}

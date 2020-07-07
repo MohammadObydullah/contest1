@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Contest</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/imagehover.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    
+    <!--  =====================menu  part start===============================-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h3>OutfitsZone</h3>
+                <!--            <img src="img/logo.png" alt="logo" class="img-fluid">-->
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                        <ul class="submenu">
+                            <li><a href="">services</a></li>
+                            <li><a href="">service Details</a></li>
+                        </ul>
+                    </li>
+
+                   
+
+
+
+                   
+
+
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contest</a>
+                    </li>
+
+                </ul>
+
+                <div class="search-box">
+                    <button type="button">login</button>
+                </div>
+                <div class="search-overlay">
+                    <!--
+                  <div class="search-btn">
+                      <form action="" method="post" >
+                          <input type="text" placeholder="search here" class="form-input">
+                          <button type="submit"> <i class="fa fa-search"></i></button>
+                          
+                      </form>
+                  </div>
+-->
+
+                    <div class="col-lg-4 m-auto  col-md-12 wow slideInLeft" data-wow-delay=".5s">
+                        <div class="service-header test-header">
+                            <h3><i class="fa fa-home"></i> Register Here </h3>
+                        </div>
+                        <form action="" method="post">
+                            <div class="row form-top forms-top">
+
+                                <div class="col-lg-12 col-md-6 ">
+                                    <div class="field fields">
+
+                                        <input type="email" placeholder=" Enter Your Email" id="email">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12 col-md-6">
+                                    <div class="field fields">
+
+                                        <input type="password" placeholder=" password" id="phone">
+
+
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-12">
+                                    <div class="form-btn forms1-btn">
+                                        <button type="submit" onclick="return sub()">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="cancel-btn">
+                        <button type="submit"> <i class="fa fa-times"></i></button>
+                    </div>
+                </div>
+                <div class="slidebar">
+                    <button type="button" data-toggle="modal" data-target="#exampleModal">Sign Up</button>
+                    <!--                  <i class="fa fa-bars"></i>-->
+                </div>
+
+
+
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="post">
+                        <div class="row">
+
+                            <div class="col-lg-11 m-auto  col-md-12 wow slideInLeft" data-wow-delay=".5s">
+                                <div class="service-header test-header">
+                                    <h3><i class="fa fa-home"></i> Register Here </h3>
+                                </div>
+                                <form action="" method="post">
+                                    <div class="row form-top">
+                                        <div class="col-lg-6 col-md-6 ">
+                                            <div class="field">
+                                                <p>Name </p>
+                                                <input type="text" placeholder="" id="fname">
+                                            </div>
+
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 ">
+                                            <div class="field">
+                                                <p>Email </p>
+                                                <input type="email" placeholder="" id="email">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6  col-md-6">
+                                            <div class="field">
+                                                <p>Mobile </p>
+                                                <input type="Number" placeholder="" id="phone">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="field">
+                                                <p>Password </p>
+                                                <input type="password" placeholder="" id="phone">
+
+
+                                                <!--
+                                    <select>
+                                        <option> স্যানিটারি ফিটটিংস</option>
+                                        <option value="Business planning">রান্নাঘরের ফিটটিংস </option>
+                                        <option value="Business solutions">রান্নাঘরের ফিটটিংস </option>
+                                        <option value="marketing strategy"> রান্নাঘরের ফিটটিংস </option>
+                                        <option value="market research"> রান্নাঘরের ফিটটিংস </option>
+                                    </select>
+-->
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="field">
+                                                <p>Message</p>
+                                                <textarea placeholder=""></textarea>
+
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12">
+                                            <div class="form-btn">
+                                                <button type="submit" onclick="return sub()">Submit</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!--
+                            <div class="col-lg-12">
+                                <div class="forms-btn">
+                                    <button type="submit">Send Message</button>
+                                </div>
+
+                            </div>
+-->
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!--  =====================menu  part end=================================-->
+    
+    
+   <section id="banner">
+       <div class="container">
+           <div class="row">
+         <nav class="navbar navbar-expand-lg navbar-light menu">
+<!--
+            <a class="navbar-brand" href="#">
+                <h3>OutfitsZone</h3>
+                            <img src="img/logo.png" alt="logo" class="img-fluid">
+            </a>
+-->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav menu-nav mr-auto">
+                    
+                   
+
+                    <li class="nav-item navs-item">
+                        <a class="nav-link" href="#">type<i class="fa fa-caret-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="">Type 1</a></li>
+                            <li><a href="">type 2</a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <li class="nav-item navs-item">
+                        <a class="nav-link" href="#">category<i class="fa fa-caret-down"></i></a>
+                        <ul class="submenu">
+                            <li><a href="">category 1</a></li>
+                            <li><a href="">category 2</a></li>
+                            <li><a href="">category 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item navs-item">
+                       <a class="nav-link" href="#">
+                         <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                         </label>    
+                        
+                        prize</a>
+
+                    </li>
+
+
+                </ul>
+            </div>
+          </nav>
+           </div>
+           
+<!--   ================= card part start ===================      -->
+           
+    <section id="cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 m-auto text-center">
+                    <div class="cards-header">
+                        <h3>Demo <span> Design</span></h3>
+                        <p>Lorem dolor sit amet, consectetur adipisicing elit. Obcaecati veritatis illum consequuntur quidem ex tempore odio impedit dicta, earum dolorem quam doloribus quos eos! Culpa?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row cards-top">
+                <div class="col-lg-3 cards-bottom">
+                    <div class="card-item">
+                        <figure class="imghvr-fold-left">
+                            <img src="image/bag3.jpg" class="img-fluid">
+                            <div class="card-1">
+                                <h3> Title goes to here</h3>
+                                <p>Telcon company</p>
+                            </div>
+                            <figcaption>
+                                <div class="card-text">
+                                    
+                                    <h6>$800</h6>
+                                    <h3>carry bag</h3>
+                                </div>
+                               
+                                <div class="card-btn">
+                                    <a href="">Detail</a>
+                                    <a href="">Buy</a>
+                                </div>
+                                <div class="card-txt1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto sit autem, molestias facere sit voluptatem! Eveniet, et sit omnis iure!</p>
+                                </div>
+                                <div class="card-icons1">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                    </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 cards-bottom">
+                    <div class="card-item">
+                        <figure class="imghvr-fold-left">
+                            <img src="image/bag2.jpg" class="img-fluid">
+                            <div class="card-1">
+                                <h3> Title goes to here</h3>
+                                <p>Telcon company</p>
+                            </div>
+                            <figcaption>
+                                <div class="card-text">
+                                    
+                                    <h6>$800</h6>
+                                    <h3>carry bag</h3>
+                                </div>
+                               
+                                <div class="card-btn">
+                                    <a href="">Detail</a>
+                                    <a href="">Buy</a>
+                                </div>
+                                <div class="card-txt1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto sit autem, molestias facere sit voluptatem! Eveniet, et sit omnis iure!</p>
+                                </div>
+                                <div class="card-icons1">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                    </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+                 <div class="col-lg-3 cards-bottom">
+                    <div class="card-item">
+                        <figure class="imghvr-fold-left">
+                            <img src="image/bag3.jpg" class="img-fluid">
+                            <div class="card-1">
+                                <h3> Title goes to here</h3>
+                                <p>Telcon company</p>
+                            </div>
+                            <figcaption>
+                                <div class="card-text">
+                                    
+                                    <h6>$800</h6>
+                                    <h3>carry bag</h3>
+                                </div>
+                               
+                                <div class="card-btn">
+                                    <a href="">Detail</a>
+                                    <a href="">Buy</a>
+                                </div>
+                                <div class="card-txt1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto sit autem, molestias facere sit voluptatem! Eveniet, et sit omnis iure!</p>
+                                </div>
+                                <div class="card-icons1">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                    </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+                 <div class="col-lg-3 cards-bottom">
+                    <div class="card-item">
+                        <figure class="imghvr-fold-left">
+                            <img src="image/bag2.jpg" class="img-fluid">
+                            <div class="card-1">
+                                <h3> Title goes to here</h3>
+                                <p>Telcon company</p>
+                            </div>
+                            <figcaption>
+                                <div class="card-text">
+                                    
+                                    <h6>$800</h6>
+                                    <h3>carry bag</h3>
+                                </div>
+                               
+                                <div class="card-btn">
+                                    <a href="">Detail</a>
+                                    <a href="">Buy</a>
+                                </div>
+                                <div class="card-txt1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto sit autem, molestias facere sit voluptatem! Eveniet, et sit omnis iure!</p>
+                                </div>
+                                <div class="card-icons1">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                    </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+                 <div class="col-lg-3 cards-bottom">
+                    <div class="card-item">
+                        <figure class="imghvr-fold-left">
+                            <img src="image/bag3.jpg" class="img-fluid">
+                            <div class="card-1">
+                                <h3> Title goes to here</h3>
+                                <p>Telcon company</p>
+                            </div>
+                            <figcaption>
+                                <div class="card-text">
+                                    
+                                    <h6>$800</h6>
+                                    <h3>carry bag</h3>
+                                </div>
+                               
+                                <div class="card-btn">
+                                    <a href="">Detail</a>
+                                    <a href="">Buy</a>
+                                </div>
+                                <div class="card-txt1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto sit autem, molestias facere sit voluptatem! Eveniet, et sit omnis iure!</p>
+                                </div>
+                                <div class="card-icons1">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                    </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+                 <div class="col-lg-3 cards-bottom">
+                    <div class="card-item">
+                        <figure class="imghvr-fold-left">
+                            <img src="image/bag2.jpg" class="img-fluid">
+                            <div class="card-1">
+                                <h3> Title goes to here</h3>
+                                <p>Telcon company</p>
+                            </div>
+                            <figcaption>
+                                <div class="card-text">
+                                    
+                                    <h6>$800</h6>
+                                    <h3>carry bag</h3>
+                                </div>
+                               
+                                <div class="card-btn">
+                                    <a href="">Detail</a>
+                                    <a href="">Buy</a>
+                                </div>
+                                <div class="card-txt1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto sit autem, molestias facere sit voluptatem! Eveniet, et sit omnis iure!</p>
+                                </div>
+                                <div class="card-icons1">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                    </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+                 <div class="col-lg-3 cards-bottom">
+                    <div class="card-item">
+                        <figure class="imghvr-fold-left">
+                            <img src="image/bag3.jpg" class="img-fluid">
+                            <div class="card-1">
+                                <h3> Title goes to here</h3>
+                                <p>Telcon company</p>
+                            </div>
+                            <figcaption>
+                                <div class="card-text">
+                                    
+                                    <h6>$800</h6>
+                                    <h3>carry bag</h3>
+                                </div>
+                               
+                                <div class="card-btn">
+                                    <a href="">Detail</a>
+                                    <a href="">Buy</a>
+                                </div>
+                                <div class="card-txt1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto sit autem, molestias facere sit voluptatem! Eveniet, et sit omnis iure!</p>
+                                </div>
+                                <div class="card-icons1">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                    </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 cards-bottom">
+                    <div class="card-item">
+                        <figure class="imghvr-fold-left">
+                            <img src="image/bag2.jpg" class="img-fluid">
+                            <div class="card-1">
+                                <h3> Title goes to here</h3>
+                                <p>Telcon company</p>
+                            </div>
+                            <figcaption>
+                                <div class="card-text">
+                                    
+                                    <h6>$800</h6>
+                                    <h3>carry bag</h3>
+                                </div>
+                               
+                                <div class="card-btn">
+                                    <a href="">Detail</a>
+                                    <a href="">Buy</a>
+                                </div>
+                                <div class="card-txt1">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto sit autem, molestias facere sit voluptatem! Eveniet, et sit omnis iure!</p>
+                                </div>
+                                <div class="card-icons1">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-linkedin"></i></a>
+                                        <a href=""><i class="fa fa-instagram"></i></a>
+                                    </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+           
+           
+           
+           
+           
+       </div>
+   </section>
+   
+   
+   <section id="last-part">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="last-text text-center">
+                        <p>Copyright © 2019 builder. All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/custom.js"></script>
+</body>
+</html>
